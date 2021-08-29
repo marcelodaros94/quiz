@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/paso-1', function () {
+    return view('paso1');
+});
+Route::resource('/landing', 'LandingController');
